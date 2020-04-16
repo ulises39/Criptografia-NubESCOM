@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Prueba Inicio Sesion</title>
+        <meta charset="utf-8">   
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <h1>Prueba Login(Inicio Sesion)</h1>
+        
+        <form method="post" action = "inicio_sesion.php" id="dataForm" class="dataForm">
+			<table>
+				<tr>
+					<td>
+						<label>Boleta</label>
+					</td>
+					<td>
+						<input type="number" name="boleta" maxlength="30" size="32"/>
+					</td>
+				</tr> 
+				
+				<tr>
+					<td>
+						<label>Nombre</label>
+					</td>
+					<td>
+						<input type="text" name="nombre" size="30"/> 
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Correo:</label>
+					</td>
+					<td>
+						<input type="text" name="correo" maxlength="30" size="32"/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<label>Contrase&ntilde;a</label>
+					</td>
+					<td>
+						<input type="password" name="pw" maxlength="100" size="32"/> 
+					</td>
+				</tr> 
+			</table>
+			<input type="submit" value="Aceptar" class="btnAcept" /> 
+		</form>	
+    
+    </body>
+    
+    
+</html>
